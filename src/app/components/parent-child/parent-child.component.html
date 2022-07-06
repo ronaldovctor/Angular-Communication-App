@@ -1,0 +1,12 @@
+
+<button mat-raised-button color="primary" (click)="wath.start()">Start</button>
+<button mat-raised-button color="accent" (click)="wath.stop()">Stop</button>
+<button mat-raised-button color="warn" (click)="wath.clear()">Clear</button>
+
+<app-timer #wath></app-timer>
+
+<button mat-raised-button color="primary" (click)="start()">Start</button>
+<button mat-raised-button color="accent" (click)="stop()">Stop</button>
+<button mat-raised-button color="warn" (click)="clear()">Clear</button>
+
+<p #myP>Text from ViewChild</p>

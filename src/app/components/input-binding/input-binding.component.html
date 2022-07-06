@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-card-content>
+        <p>First name: {{firstName}}</p>
+        <p>Last name: {{lastName}}</p>
+        <p>Age: {{age}}</p>
+    </mat-card-content>
+</mat-card>
+
+<h1>My Clients</h1>
+<div class="" *ngFor="let client of clients">
+    <app-client [client]="client"></app-client>
+</div>
